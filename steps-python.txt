@@ -1,0 +1,41 @@
+1. Create account on python anywhere
+2. cd into devconf and type git init
+3. create .gitignore inside devconf and add your virtual environment as well as your instance folder
+4. cd into devconf and type git add .
+5. type git commit -m 'Message here'
+6. Login to github and create a repository named devconf
+7. while within devconf, on your command line, let's add the remote repo to this local one by typing:
+git remote add origin https://github.com/yourusername/crud.git
+EXAMPLE: 
+git remote add origin https://github.com/moatacad/devconf.git
+
+8. from your command line type
+git push -u origin master
+9. Authentication issues? follow these steps>
+from github dashboard/settings/developer settings
+select personal access tokens
+Click on Generate New Token
+Complete the form and Click on the button
+
+10 login to pythonanywhere and click on CONSOLES tab
+11. The above will open a command line for you. Type the following:
+
+git clone https://github.com/moatacad/devconf.git
+
+12. Within the bash console, cd into devconf and create a virtual envioronment as:
+	cd devconf
+	mkvirtualenv vname --python=/usr/bin/python3.9
+
+13. Edit the swgy file
+
+/home/moatacad/.virtualenvs/vname
+
+
+
+
+
+
+
+
+
+
